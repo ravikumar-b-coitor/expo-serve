@@ -12,7 +12,7 @@ const { exp } = ExpoConfig.getConfig(projectDir, {
 });
 
 // Output file path
-const outputPath = path.join(__dirname, '..', 'updates', '2', '1744106669', 'expoConfig.json');
+const outputPath = path.join(__dirname, '..', 'updates', '2', '1744112932', 'expoConfig.json');
 
 // Write the config to file
 fs.writeFileSync(outputPath, JSON.stringify(exp, null, 2), 'utf-8');
