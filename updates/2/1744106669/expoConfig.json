@@ -1,0 +1,58 @@
+{
+  "name": "expo-updates-client",
+  "slug": "expo-updates-client",
+  "version": "1.0.0",
+  "orientation": "portrait",
+  "icon": "./assets/icon.png",
+  "splash": {
+    "image": "./assets/splash.png",
+    "resizeMode": "contain",
+    "backgroundColor": "#ffffff"
+  },
+  "runtimeVersion": "2",
+  "updates": {
+    "url": "https://ota-staging.xploro.io/api/manifest",
+    "enabled": true,
+    "fallbackToCacheTimeout": 30000
+  },
+  "assetBundlePatterns": [
+    "**/*"
+  ],
+  "ios": {
+    "supportsTablet": true,
+    "bundleIdentifier": "com.test.expo-updates-client"
+  },
+  "android": {
+    "adaptiveIcon": {
+      "foregroundImage": "./assets/adaptive-icon.png",
+      "backgroundColor": "#FFFFFF"
+    },
+    "package": "com.test.expoupdatesclient"
+  },
+  "web": {
+    "favicon": "./assets/favicon.png"
+  },
+  "plugins": [
+    [
+      "expo-build-properties",
+      {
+        "android": {
+          "usesCleartextTraffic": true
+        },
+        "ios": {}
+      }
+    ]
+  ],
+  "extra": {
+    "eas": {
+      "projectId": "5bf6325f-0487-4341-a70c-5e57265fa19c"
+    }
+  },
+  "sdkVersion": "52.0.0",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "currentFullName": "@xploroteam/expo-updates-client",
+  "originalFullName": "@xploroteam/expo-updates-client"
+}
